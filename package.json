@@ -16,7 +16,8 @@
     "@octokit/core": "^3.5.1",
     "axios": "^0.24.0",
     "core-js": "^3.19.2",
-    "vue": "^3.0.0"
+    "vue": "^3.0.0",
+    "yarn": "^1.22.17"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
