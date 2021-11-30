@@ -2,18 +2,17 @@
   <div class="editor">
     <ul id="gist-list">
       <li v-for="gist in data.gists" :key="gist.url">
-        {{ gist.description }} <!-- - {{ gist.url }} -->
+        {{ gist.description }} <!-- {{ gist.url }} -->
       </li>
     </ul>
-
   </div>
 </template>
 
 <script>
-import {Octokit} from "@octokit/core";
+import { Octokit } from "@octokit/core";
 
 export default {
-  name: "EditorMain",
+  name: "GistList",
   data: function () {
     return {
       data: {
@@ -26,13 +25,10 @@ export default {
     const octokit = new Octokit({
       auth: process.env.VUE_APP_GITHUB_TOKEN,
     });
-    octokit.request("/gists")
-        .then(
-            (data) => {
-              // console.log(data)
-              this.data.gists = data.data
-            }
-        );
+    octokit.request("/gists").then((data) => {
+      // console.log(data)
+      this.data.gists = data.data;
+    });
   },
 };
 </script>
