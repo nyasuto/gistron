@@ -1,15 +1,15 @@
 <template>
   <div class="editor">
-    <ul id="gist-list">
-      <li v-for="gist in data.gists" :key="gist.url">
-        {{ gist.description }} <!-- {{ gist.url }} -->
-      </li>
-    </ul>
+    <ui-list id="gist-list">
+      <ui-item v-for="gist in data.gists" :key="gist.url">
+        <ui-item-text-content> {{ gist.description }} <!-- {{ gist.url }} --> </ui-item-text-content>
+      </ui-item>
+    </ui-list>
   </div>
 </template>
 
 <script>
-import { Octokit } from "@octokit/core";
+import {Octokit} from "@octokit/core";
 
 export default {
   name: "GistList",

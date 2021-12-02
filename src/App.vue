@@ -1,16 +1,15 @@
 <template>
   <div class="container">
     <header class="header">
-      header
-      <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
+      <ui-top-app-bar>Header</ui-top-app-bar>
     </header>
     <aside class="aside">
-      <GistList />
+      <GistList/>
     </aside>
     <main class="main">
-      <GistMain />
+      <GistMain/>
     </main>
-    <footer class="footer">footer</footer>
+
   </div>
 </template>
 
@@ -53,19 +52,6 @@ export default {
   grid-row-end: auto;
 }
 
-.nav {
-  grid-column-start: 3;
-  grid-column-end: auto;
-  grid-row-start: 2;
-  grid-row-end: auto;
-}
-
-.footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  grid-row-start: 3;
-  grid-row-end: auto;
-}
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
