@@ -1421,6 +1421,15 @@
     estree-walker "^2.0.2"
     source-map "^0.6.1"
 
+"@vue/compiler-core@3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-core/-/compiler-core-3.2.24.tgz#cadcda0e026e7f1cd453ce87160be51a5f313fe0"
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@vue/shared" "3.2.24"
+    estree-walker "^2.0.2"
+    source-map "^0.6.1"
+
 "@vue/compiler-dom@3.2.23":
   version "3.2.23"
   resolved "https://registry.npmjs.org/@vue/compiler-dom/-/compiler-dom-3.2.23.tgz"
@@ -1428,7 +1437,14 @@
     "@vue/compiler-core" "3.2.23"
     "@vue/shared" "3.2.23"
 
-"@vue/compiler-sfc@3.2.23", "@vue/compiler-sfc@^3.0.0":
+"@vue/compiler-dom@3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-dom/-/compiler-dom-3.2.24.tgz#32235cb444660245be5cc58f4beb76747400505c"
+  dependencies:
+    "@vue/compiler-core" "3.2.24"
+    "@vue/shared" "3.2.24"
+
+"@vue/compiler-sfc@3.2.23":
   version "3.2.23"
   resolved "https://registry.npmjs.org/@vue/compiler-sfc/-/compiler-sfc-3.2.23.tgz"
   dependencies:
@@ -1443,12 +1459,34 @@
     postcss "^8.1.10"
     source-map "^0.6.1"
 
+"@vue/compiler-sfc@^3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-sfc/-/compiler-sfc-3.2.24.tgz#803a309e1935fc85981218d88fd4fb5db05afdb1"
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@vue/compiler-core" "3.2.24"
+    "@vue/compiler-dom" "3.2.24"
+    "@vue/compiler-ssr" "3.2.24"
+    "@vue/ref-transform" "3.2.24"
+    "@vue/shared" "3.2.24"
+    estree-walker "^2.0.2"
+    magic-string "^0.25.7"
+    postcss "^8.1.10"
+    source-map "^0.6.1"
+
 "@vue/compiler-ssr@3.2.23":
   version "3.2.23"
   resolved "https://registry.npmjs.org/@vue/compiler-ssr/-/compiler-ssr-3.2.23.tgz"
   dependencies:
     "@vue/compiler-dom" "3.2.23"
     "@vue/shared" "3.2.23"
+
+"@vue/compiler-ssr@3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/compiler-ssr/-/compiler-ssr-3.2.24.tgz#edd0b7e7cd28d6c2578bb770ce0128bfdef9c948"
+  dependencies:
+    "@vue/compiler-dom" "3.2.24"
+    "@vue/shared" "3.2.24"
 
 "@vue/component-compiler-utils@^3.1.0", "@vue/component-compiler-utils@^3.1.2":
   version "3.3.0"
@@ -1485,6 +1523,16 @@
     estree-walker "^2.0.2"
     magic-string "^0.25.7"
 
+"@vue/ref-transform@3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/ref-transform/-/ref-transform-3.2.24.tgz#335bf06e0b25be16e7056cc4117c51a79f0c9122"
+  dependencies:
+    "@babel/parser" "^7.15.0"
+    "@vue/compiler-core" "3.2.24"
+    "@vue/shared" "3.2.24"
+    estree-walker "^2.0.2"
+    magic-string "^0.25.7"
+
 "@vue/runtime-core@3.2.23":
   version "3.2.23"
   resolved "https://registry.npmjs.org/@vue/runtime-core/-/runtime-core-3.2.23.tgz"
@@ -1510,6 +1558,10 @@
 "@vue/shared@3.2.23":
   version "3.2.23"
   resolved "https://registry.npmjs.org/@vue/shared/-/shared-3.2.23.tgz"
+
+"@vue/shared@3.2.24":
+  version "3.2.24"
+  resolved "https://registry.yarnpkg.com/@vue/shared/-/shared-3.2.24.tgz#d74615e856013b17fb60b19b09d712729ad5e090"
 
 "@vue/web-component-wrapper@^1.2.0":
   version "1.3.0"
