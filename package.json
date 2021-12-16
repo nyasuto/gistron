@@ -16,7 +16,7 @@
     "@octokit/core": "^3.5.1",
     "axios": "^0.24.0",
     "core-js": "^3.20.0",
-    "vue": "^3.2.24",
+    "vue": "^3.2.26",
     "yarn": "^1.22.17"
   },
   "devDependencies": {
