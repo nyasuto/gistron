@@ -17,7 +17,7 @@
     "axios": "^0.26.1",
     "core-js": "^3.21.1",
     "vue": "^3.2.31",
-    "yarn": "^1.22.17"
+    "yarn": "^1.22.18"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~5.0.4",
