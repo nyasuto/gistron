@@ -3794,9 +3794,9 @@ electron-to-chromium@^1.4.84:
   version "1.4.101"
   resolved "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.101.tgz"
 
-electron@^19.0.1:
-  version "19.0.1"
-  resolved "https://registry.yarnpkg.com/electron/-/electron-19.0.1.tgz#9370cb4d43db959bbe1dfa85ba582b3a012af5aa"
+electron@^19.0.2:
+  version "19.0.2"
+  resolved "https://registry.yarnpkg.com/electron/-/electron-19.0.2.tgz#48d744dc2dfae0a8590239c614db02f7bc0d6696"
   dependencies:
     "@electron/get" "^1.14.1"
     "@types/node" "^16.11.26"
